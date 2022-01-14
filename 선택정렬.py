@@ -9,6 +9,7 @@ for i in range(len(array)):
 print(array)
 
 # 삽입정렬      오름차순을 기본으로 정의
+# 삽입 정렬은 대부분 선택정렬보다 더 빠르며 리스트가 거이 정렬되어있다면 더 빠르다
 array = [7,5,9,0,3,1,6,2,4,8]
 for i in range(1,len(array)):
     for j in range(i,0,-1):     # 인덱스 i부터 1까지 1씩 감소하며 반복하는 문법
